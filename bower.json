@@ -1,0 +1,8 @@
+{
+  "name": "bikefarm-signin-chrome",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3.0"
+  },
+  "devDependencies": {}
+}
