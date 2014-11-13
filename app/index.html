@@ -26,25 +26,38 @@
 		<br/>
 		<div class="well well-sm">
 			Here to: 
-			<div class="btn-group">
-				<button type="radio" name="purpose" class="btn btn-default">Work on your bike</button>
-				<button type="radio" name="purpose" class="btn btn-default">Volunteer</button>
+			<div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-primary active">
+				<input type="radio" name="purpose" id="stand time" checked>Work on your bike
+                            </label>
+                            <label class="btn btn-primary">
+				<input type="radio" name="purpose" id="volunteer">Volunteer
+                            </label>
 			</div>
 		</div>
 		<div class="well well-sm">
 			I expect to be here for: 
-			<div class="btn-group">
-				<button type="radio" name="duration" class="btn btn-default">1</button>
-				<button type="radio" name="duration" class="btn btn-default">2</button>
-				<button type="radio" name="duration" class="btn btn-default">3+</button>
+			<div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-primary">
+				<input type="radio" name="duration" id="1h">1</button>
+                            </label>
+                            <label class="btn btn-primary">
+				<input type="radio" name="duration" id="2h">2</button>
+                            </label>
+                            <label class="btn btn-primary">
+				<input type="radio" name="duration" id="3+h">3+</button>
+                            </label>
 			</div>
 			hours. (it's fine if you're wrong)
 		</div>
+		<div class="input-group input-group-lg">
+			<span class="input-group-addon">Member #</span>
+			<input type="text" class="form-control" placeholder="If you have your member number handy, enter it here">
+		</div>
 		
 	<br/>
-	<button type="submit" class="btn btn-default">Sign in</button>
+	<button id="submitFormButton" class="btn btn-default">Sign in</button>
 
-	
 	</div>
 
         <!-- build:js scripts/vendor.js -->
