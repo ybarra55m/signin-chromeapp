@@ -8,6 +8,7 @@ $('button:submit').click(function (event) {
             record[i.attr('name')] = i.val();
         };
     });
-    console.log(record);
+    console.log(record); //TODO: change this to push data to localstorage or what have you
+    document.forms["patroninfo"].reset();
 });
 
