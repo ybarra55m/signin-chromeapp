@@ -201,7 +201,8 @@ module.exports = function (grunt) {
         options: {
           customAttrAssign: [/\?=/],
           collapseBooleanAttributes: true,
-          collapseWhitespace: true,
+//          collapseWhitespace: true,
+          collapseWhitespace: false,
           removeAttributeQuotes: true,
           removeCommentsFromCDATA: true,
           removeEmptyAttributes: true,
