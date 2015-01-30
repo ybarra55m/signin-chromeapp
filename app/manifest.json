@@ -1,7 +1,7 @@
 {
     "name": "bikefarm sign-in",
     "description": "",
-    "version": "10",
+    "version": "12",
     "manifest_version": 2,
     "default_locale": "en",
     "permissions": [

@@ -9,7 +9,7 @@ $('button:submit').click(function (event) {
         };
     });
     console.log(record); //TODO: change this to push data to localstorage or what have you
-    localforage.setItem(record['datetime'], record).then(function() {
+    localforage.setItem(record['datetime'].toString(), record).then(function() {
         console.log('record saved');
     });
     $('input').each(function() { this.checked = false; } );
